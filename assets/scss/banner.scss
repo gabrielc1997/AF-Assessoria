@@ -1,0 +1,135 @@
+.banner {
+  padding: 0px 0 50px 0;
+  h1 {
+    font-size: 42px;
+  }
+  p {
+    font-size: 16px;
+  }
+  .btn {
+    border-radius: 5px;
+    font-weight: 600;
+    padding: 12px 55px;
+    border: 0;
+  }
+
+  .btn-cobalt-blue {
+    background: white;
+    border: 2px solid $blue;
+    color: $blue;
+  }
+  .bn-1 {
+    background: url(https://cdn.stocksnap.io/img-thumbs/960w/laptop-work_NPL5SIJDCC.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 720px;
+    .container {
+      min-height: 720px;
+    }
+  }
+  .bn-2 {
+    background: url(https://cdn.stocksnap.io/img-thumbs/960w/laptop-work_NPL5SIJDCC.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 720px;
+    .container {
+      min-height: 720px;
+    }
+  }
+  .bn-3 {
+    background: url(https://cdn.stocksnap.io/img-thumbs/960w/laptop-work_NPL5SIJDCC.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 720px;
+    .container {
+      min-height: 720px;
+    }
+  }
+    .slick-active{
+      button:before {
+
+        opacity: 1 !important;
+
+      }
+    }
+
+  .slick-dots {
+    position: relative;
+    bottom: 64px;
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+    li:nth-child(1) {
+      width: 40px;
+      button {
+        width: 40px;
+      }
+      button:before {
+        font-family: "slick";
+
+        font-size: 18px;
+        line-height: 20px;
+        position: absolute;
+        top: 0;
+        left: 0;
+
+        content: "lorem|";
+        text-align: center;
+        opacity: 0.25;
+        color: black;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+    }
+    li:nth-child(2) {
+      width: 50px;
+      button {
+        width: 50px;
+      }
+      button:before {
+        font-family: "slick";
+
+        font-size: 18px;
+        line-height: 20px;
+        position: absolute;
+        top: 0;
+        left: 0;
+
+        content: "service";
+        text-align: center;
+        opacity: 0.25;
+        color: black;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+    }
+    li:nth-child(3) {
+      width: 40px;
+      button {
+        width: 40px;
+      }
+      button:before {
+        font-family: "slick";
+
+        font-size: 18px;
+        line-height: 20px;
+        position: absolute;
+        top: 0;
+        left: 0;
+
+        content: "|ipsum";
+        text-align: center;
+        opacity: 0.25;
+        color: black;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+    }
+  }
+}
